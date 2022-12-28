@@ -65,6 +65,6 @@ app.post("/create-payment-intent", async (req, res) => {
   });
 });
 
-const port = process.env.PORT||3003;
+const port = process.env.PORT||3004;
 // console.log(PORT)
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
